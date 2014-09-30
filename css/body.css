@@ -1,0 +1,42 @@
+/* 
+    Document   : body
+    Created on : 4-Oct-2013, 11:43:06 AM
+    Author     : MAfzal
+    Description:
+        Purpose of the stylesheet follows.
+*/
+
+ section {
+                display: none;
+
+
+            }
+           
+            #punctuality_rate { height: auto; background: beige; display: block;} 
+            
+           
+        
+ body {
+                
+                padding-top: 60px;
+                padding-bottom: 40px;
+            }
+            .sidebar-nav {
+                padding: 9px 0;
+            }
+
+            @media (max-width: 980px) {
+                /* Enable use of floated navbar text */
+                .navbar-text.pull-right {
+                    float: none;
+                    padding-left: 5px;
+                    padding-right: 5px;
+                }
+                
+               
+                
+            }
+       .row-fluid{
+                    border-radius: 20px;  
+                   color: blue;
+                }
